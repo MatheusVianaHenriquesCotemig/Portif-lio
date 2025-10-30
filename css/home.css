@@ -1,31 +1,35 @@
-#greetingsSection{
+#greetingsSection {
     height: 100vh;
     width: 100%;
     display: grid;
     place-items: center;
 }
 
-#greetingsContainer{
+#greetingsContainer {
     width: 100%;
     height: 50vh;
 }
-#greetingsContainer>h1{
+
+#greetingsContainer>h1 {
     font-size: clamp(3.7rem, 6vw, 12rem);
     font-weight: 400;
-    line-height:clamp(4.7rem, 7vw, 13rem);
+    line-height: clamp(4.7rem, 7vw, 13rem);
     color: white;
     filter: drop-shadow(15px 5px 30px grey);
 }
-#greetingsContainer>span{
+
+#greetingsContainer>span {
     font-size: clamp(1.9rem, 3vw, 8.5rem)
 }
-#greetingsBtnContainer{
+
+#greetingsBtnContainer {
     display: flex;
     justify-content: space-between;
     width: 30%;
 }
-#greetingsBtnContainer>div{
-    flex-basis:40%;
+
+#greetingsBtnContainer>div {
+    flex-basis: 40%;
     height: 4.7vh;
     border-radius: 20px;
     background-color: #BD59FF;
@@ -35,39 +39,35 @@
     align-items: center;
 }
 
-#greetingsBtnContainer>div:hover{
+#greetingsBtnContainer>div:hover {
     cursor: pointer;
     border: 2px solid #8824ca;
     color: #8824ca;
 }
 
-video{
+video {
     width: 105%;
     z-index: -1;
     position: absolute;
-    right:0;
+    right: 0;
     bottom: 0;
     left: 0;
     top: 0;
 }
 
-#videoNuvens{
+#videoNuvens {
 
-    mask-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(0, 0, 0, 1) 50%,
-        rgba(0, 0, 0, 0) 100%
-    );
-    -webkit-mask-image: linear-gradient(
-        to bottom,
-        rgba(0, 0, 0, 1) 0%,
-        rgba(0, 0, 0, 1) 15%,
-        rgba(0, 0, 0, 0) 100%
-    );
+    mask-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 1) 50%,
+            rgba(0, 0, 0, 0) 100%);
+    -webkit-mask-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 1) 0%,
+            rgba(0, 0, 0, 1) 15%,
+            rgba(0, 0, 0, 0) 100%);
 }
 
-#infoSection{
+#infoSection {
     width: 100%;
     height: 100vh;
     background-color: grey;
@@ -80,20 +80,43 @@ video{
     color: white;
     border-top: 15vh;
 }
-#infoSection>span{
+
+#infoSection>span {
     white-space: wrap;
     text-align: middle;
     font-size: clamp(1rem, 1.5rem, 2rem);
 }
-.espaçoHor{
+
+.espaçoHor {
     width: 100%;
     height: 2vh;
     background-color: #386195;
 }
-#infoSection>h1{
+
+#infoSection>h1 {
     font-size: clamp(3rem, 4rem, 5rem);
 }
-#habilidadesContainer{
+
+#habilidadesContainer {
     width: 100%;
     height: 50vh;
+    display: flex;
+}
+
+#habilidades1 {
+    flex-basis: 45%;
+    height: 100%;
+    background-color: green;
+}
+
+#espaçoVerti {
+    height: 100%;
+    width: 2vw;
+    background-color: #386195;
+}
+
+#habilidades2 {
+    flex-basis: 45%;
+    height: 100%;
+    background-color: green;
 }
