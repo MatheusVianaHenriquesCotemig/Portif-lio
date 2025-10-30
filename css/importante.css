@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #386195;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.homeBody{
+    background-color: #386195;
+    flex-basis: 80%;
+    height: 300vh;
+    z-index: 0;
+}
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #000000;
+}
+
+.btnHover:hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+.separador:hover{
+    cursor:default;
+}

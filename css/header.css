@@ -1,0 +1,31 @@
+header{
+    min-width: 80%;
+    max-width: 87.7%;
+    height: 7vh;
+    font-size: clamp(1rem, 1.42vw, 1.7rem);
+    border-bottom: 4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+
+}
+
+#buttonsContainer{
+    flex-basis: 95%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 1fr 0.5fr 1fr 0.5fr 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.separador{
+    color:white;
+}
+
+.btnPagina{
+    font-size: clamp(1.5rem, 1.4vw, 3rem);
+    color: black;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matheus Viana||Portifólio</title>
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/importante.css" rel="stylesheet">
+    <link href="css/home.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="javaScript/botoes.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="homeBody">
+        <header>
+            <div id="buttonsContainer">
+                <span class="btnHover btnPagina" id="paginaSobre">SOBRE</span>
+                <span class="separador">//</span>
+                <span class="btnHover btnPagina" id="paginaHabilidades">HABILIDADES</span>
+                <span class="separador">//</span>
+                <span class="btnHover btnPagina" id="paginaProjetos">PROJETOS</span>
+                <span class="separador">//</span>
+                <span class="btnHover btnPagina" id="paginaContatos">CONTATOS</span>
+            </div>
+        </header>
+        <section id="greetingsSection">
+            <div id="greetingsContainer">
+                <h1>Olá, meu nome <br> é Matheus</h1>
+                <span>Este é o meu portifólio</span>
+                <div id="greetingsBtnContainer">
+                    <div onclick="projetosBtn()"><span>Ver Projetos</span></div>
+                    <div><span>Contato</span></div>
+                </div>
+            </div>
+        </section>
+        <video autoplay muted loop id="videoNuvens">
+            <source src="imagens/2888383-uhd_3840_2160_24fps.mp4" type="video/mp4">
+        </video>
+        <section id="infoSection">
+            <h1>Sobre</h1>
+            <div class="espaçoHor"></div>
+            <span>Meu nome é Matheus, tenho 16 anos e estou cursando ensino médio técnico no COTEMIG.
+                Minha ideia nesse curso é de usar os conhecimentos em TI para exercer uma profissão
+                que seja útil. Atualmente me interesso em proteção de dados e desenvolvimento de 
+                softwares que possam auxiliar as pessoas. No curso estou aprendendo C#, HTML, CSS,
+                MySql, e Ubuntu, conhecimento sobre redes, conhecimento sobre manutenção
+                de computadores e ambientes computacionais. Tenho facilidade em aprender novos conceitos
+                e gosto de pensar em maneiras eficientes de resolver problemas.</span>
+            <div class="espaçoHor"></div>
+            <h1>Habilidades</h1>
+            <div class="espaçoHor"></div>
+            <div id="habilidadesContainer"></div>
+        </section>
+    </div>
+</body>
+
+</html>
