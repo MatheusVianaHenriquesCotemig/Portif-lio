@@ -9,7 +9,9 @@ header{
     align-items: center;
     position: fixed;
     z-index: 99;
-    background-color: #224169;
+    background-color: #3563a0;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
 }
 
 #buttonsContainer{
