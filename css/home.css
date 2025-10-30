@@ -104,19 +104,19 @@ video {
 }
 
 #habilidades1 {
-    flex-basis: 45%;
+    flex-basis: 50%;
     height: 100%;
     background-color: green;
 }
 
 #espaçoVerti {
     height: 100%;
-    width: 2vw;
+    width: 1vw;
     background-color: #386195;
 }
 
 #habilidades2 {
-    flex-basis: 45%;
+    flex-basis: 50%;
     height: 100%;
     background-color: green;
 }
